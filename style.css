@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+
+nav {
+  text-align: center;
+  background: fixed;
+}
+nav a {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: gray;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color, color 0.15s;
+}
+nav a:hover {
+  background-color: #ff0000;
+  color: #000;
+  text-decoration: underline;
+}
+figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+#details div {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  background-color: gray;
+}
+#details div h3 {
+  margin-right: 10px;
+}
+#details div a {
+  text-decoration: none;
+  color: #fff;
+}
+#details div a:hover {
+  text-decoration: underline;
+  color: #ff0000;
+}
